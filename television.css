@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    width: 60%;
+    height: 60vh;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.speaker1{
+    border: 2px solid black;
+    width: 120px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 60px;
+}
+.speaker2{
+    border: 2px solid black;
+    width: 120px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    right: 60px;
+
+}
+.screen1{
+    border: 2px solid black;
+    width: 350px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+}
+.screen2{
+    border: 2px solid black;
+    width: 330px;
+    height: 130px;
+    background-color:skyblue;
+    position: absolute;
+    top: 110px;
+    transition: 2s;
+}
+.screen2:hover{
+    background-color: white;
+}
+.stand1{
+    border: 2px solid black;
+    width: 30px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    bottom: 110px;
+}
+.stand2{
+ border: 2px soild black;
+ width: 60px;
+ height: 30px;
+ background-color: black;
+ position: absolute;
+ border-radius: 50%;
+ bottom: 100px;
+}
+.inner-speaker1{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    left: 80px;
+    top: 110px;
+    border-radius: 50%;
+}
+.inner-speaker2{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    right: 80px;
+    top: 110px;
+    border-radius: 50%;
+}
+.inner-speaker3{
+    border: 2px soild black;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    border-radius: 50%;
+    animation: move-around 1.5s linear infinite;
+}
+.inner-speaker3:hover{
+    background-color: green;
+    transition: 2s;
+}
+@keyframes move-around{
+    50%{
+        transform: translateY(10px);
+    }
+    20%{
+        transform: translateX(5px);
+    }
+    100%{
+        
+    }
+}
+.inner-speaker4{
+    border: 2px soild black;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    right: 100px;
+    top: 130px;
+    border-radius: 50%;
+    animation: move-around 1.5s linear infinite;
+}
+.inner-speaker4:hover{
+    background-color: green;
+    transition: 2s;
+}
+@keyframes move-around{
+    50%{
+        transform: translateY(10px);
+    }
+    20%{
+        transform: translateX(5px);
+    }
+}
+.stadium{
+    position: absolute;
+
+}
+.pitch{
+    width: 326px;
+    height: 84px;
+    
+}
+.first-player{
+    position: absolute;
+    right: 220px;
+    top: 170px;
+}
+.player1{
+    height: 70px;
+}
+.second-player{
+    position: absolute;
+    left: 220px;
+    top: 168px;
+}
+.player2{
+    height: 70px;
+}
+.ball{
+    position: absolute;
+    left: 260px;
+    top: 205px;
+    animation: jumping 5s linear infinite;
+}
+@keyframes jumping{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translatex(200px);
+    }
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    width: 20%;
+    height: 80vh;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(180deg, rgba(175, 175, 175, 0.493),rgba(128, 128, 128, 0.808));
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 5px 10px 0px;
+}
+
+.head {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    top: 10px;
+    border: 3px solid black;
+}
+
+.blade {
+    position: absolute;
+    width: 10px;
+    height: 140px;
+    background-color: black;
+    border-radius: 5px;
+    top: 30px;
+    left: 92px;
+    margin: auto;
+    justify-content: center;
+    animation: rotate 0.3s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.stand1 {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: gray;
+    top: 210px;
+}
+
+.stand2 {
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    background-color: rgb(68, 68, 206);
+    border-radius: 10px;
+    top: 316px;
+
+}
+
+.card {
+    position: absolute;
+    width: 140px;
+    height: 90px;
+    background-color: rgb(20, 18, 18);
+    border-radius: 5px;
+    bottom: 15px;
+}
+
+.onbtn {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color: rgb(68, 68, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    bottom: 40px;
+}
+
+.onbtn a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

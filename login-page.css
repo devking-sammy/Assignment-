@@ -1,0 +1,68 @@
+.container{
+    border: 2px solid black;
+    width: 50%;
+    margin: 230px auto;
+    padding: 200px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: none;
+    margin-bottom: auto;
+    
+}
+
+
+input[type=text], input[type=password]{
+    margin:100px auto;
+    padding: 10px 100px;
+    right: 52%;
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+form{
+    margin:auto ;
+    border: 2px solid black;
+    width: 50%;
+    border: none;
+    
+}
+.btn{
+    
+    margin-top:200px auto;
+    background-color:skyblue;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    
+
+    
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.btn:hover{
+    background-color: royalblue;
+}
+body{
+    background-color: royalblue;
+}
+
+.container input{
+    margin: 0;
+}
+.vertical-center{
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+    right: 51%;
+    border: none;
+    
+}
+
+
